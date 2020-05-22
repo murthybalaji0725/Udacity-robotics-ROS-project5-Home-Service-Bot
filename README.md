@@ -9,7 +9,7 @@ The task of this project was to use create a robot in a virtual environment alon
 
 ## Running the project 
 Assuming ROS Kinetic has already been installed
-1. Create a workspace directory 
+1. Create a workspace directory and clone the packages
 ```
 catkin_ws/src
 cd catkin_ws/src
@@ -18,7 +18,12 @@ git clone https://github.com/murthybalaji0725/udap5.git
 cd ..
 catkin_make
 ```
-
+2. Under catkin_ws,
+```
+source devel/setup.bash
+cd scripts
+```
+3. To test the home_service.sh `./home_service.sh`
 ## ROS Packages used
 ###### GMapping
 The package provides laser-based SLAM. Using slam_gmapping, you can create a 2-D occupancy grid map. This is  
