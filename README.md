@@ -1,6 +1,7 @@
 # Udacity Robotics Software Engineer Nanodegree Program Project 5 - Home Service Robot
 ## Intro
 The task of this project was to use create a robot in a virtual environment along with a virtual object. The task of the robot was to navigate to the initial goal position, pick up the object and drop it off at the next goal postion. It had to do that while navigating the enviroment on it own. The robot is able to perform Simulataneous Localisation and Mapping or SLAM.
+![Screenshot of the robot performing path planning and SLAM](https://github.com/murthybalaji0725/udap5/blob/master/Extra%20file/path%20planning%201.png)
 
 ## The robot performed :
 1. Localisation using AMCL
