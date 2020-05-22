@@ -23,7 +23,11 @@ catkin_make
 source devel/setup.bash
 cd scripts
 ```
-3. To test the home_service.sh `./home_service.sh`
+3.  To test the home_service.sh `./home_service.sh`
+    To test SLAM `./test_slam.sh`
+    To test navigation `./test_navigation.sh`
+    Give a few seconds for all the terminals to open and applications to start.
+    
 ## ROS Packages used
 ###### GMapping
 The package provides laser-based SLAM. Using slam_gmapping, you can create a 2-D occupancy grid map. This is  
