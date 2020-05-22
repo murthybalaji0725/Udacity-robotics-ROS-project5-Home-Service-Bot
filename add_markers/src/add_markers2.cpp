@@ -7,8 +7,8 @@
 double x_coordinate_pickup = 3.0;
 double y_coordinate_pickup = 3.0;
 double x_coordinate_droppoint = -3.0;
-double y_coordinate_droppoint = -3.0;
-double threshold = 1.0;
+double y_coordinate_droppoint = 3.0;
+double threshold = 0.2;
 double marker_size = 0.3;
 bool item_pick_state = false;
 bool item_drop_state = false;
@@ -118,6 +118,6 @@ int main( int argc, char** argv )
 			marker_pub.publish(marker);
 		}
 
-		r.sleep();
+		ros::spinOnce();
   }
 }
