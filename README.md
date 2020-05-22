@@ -40,8 +40,15 @@ To test navigation
 Give a few seconds for all the terminals to open and applications to start.
     
 ## ROS Packages used
-###### GMapping
+###### GMapping 
+[Documentation available here](http://wiki.ros.org/gmapping)
 The package provides laser-based SLAM. Using slam_gmapping, you can create a 2-D occupancy grid map. This is  
-###### GMapping
-###### GMapping
-###### GMapping
+###### turtlebot_teleop
+[Documentation available here](http://wiki.ros.org/turtlebot_teleop)
+Allows user to control the robot using commands from joystick or keyboard.
+###### turtlebot_rviz_launchers
+[Documentation available here](http://wiki.ros.org/turtlebot_rviz_launchers)
+It contains the `view_navigation.launch` file using which can we load a preconfigured RViz workspace. It automatically loads the RobotModel, Trajectory, Maps and other relevant things in thr RViz workspace and saves lots of time 
+###### turtlebot_gazebo
+[Documentation available here](http://wiki.ros.org/turtlebot_rviz_launchers)
+One of the most important packages. We can deploy the turtlebot in gazebo with our own custom world file. 
