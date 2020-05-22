@@ -9,7 +9,13 @@ The task of this project was to use create a robot in a virtual environment alon
 
 ## Running the project 
 Assuming ROS Kinetic has already been installed
-1. Create a workspace directory ' catkin_ws/src '
+1. Create a workspace directory 
+`catkin_ws/src`
+`cd catkin_ws/src`
+`catkin_init_workspace`
+`git clone https://github.com/murthybalaji0725/udap5.git`
+`cd ..`
+`catkin_make`
 
 ## ROS Packages used
 ###### GMapping
