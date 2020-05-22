@@ -7,6 +7,9 @@ The task of this project was to use create a robot in a virtual environment alon
 2. SLAM using Gmapping package with uses a Grid Based FastSLAM 
 3. Navigation using Dijkstra's algorithm
 
+## Running the project 
+Assuming ROS Kinetic has already been installed
+1. Create a workspace directory 'catkin_ws/src'
 ## ROS Packages used
 ###### GMapping
 The package provides laser-based SLAM. Using slam_gmapping, you can create a 2-D occupancy grid map. This is  
