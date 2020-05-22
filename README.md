@@ -23,10 +23,21 @@ catkin_make
 source devel/setup.bash
 cd scripts
 ```
-3.  To test the home_service.sh ```./home_service.sh```
-    To test SLAM ```./test_slam.sh``` Navigate to the xterm terminal running keyboar_teleop. Instruction on how to control the robot are provided there.
-    To test navigation `./test_navigation.sh`
-    Give a few seconds for all the terminals to open and applications to start.
+3.  To test the home_service.sh 
+```
+./home_service.sh
+```
+To test SLAM 
+```
+./test_slam.sh
+``` 
+Navigate to the xterm terminal running keyboar_teleop. Instruction on how to control the robot are provided there.
+    
+To test navigation 
+```
+./test_navigation.sh
+```
+Give a few seconds for all the terminals to open and applications to start.
     
 ## ROS Packages used
 ###### GMapping
