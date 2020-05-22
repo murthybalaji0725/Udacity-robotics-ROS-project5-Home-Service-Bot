@@ -8,6 +8,20 @@ The task of this project was to use create a robot in a virtual environment alon
 2. SLAM using Gmapping package with uses a Grid Based FastSLAM 
 3. Navigation using Dijkstra's algorithm
 
+###### AMCL
+The Adaptive Monte Carlo Localization algorithm uses a particle filter to track the pose of the robot against a known map. The particles are initially distributed randomly in the environment with some weights. As the robot localises the weights are updated and the particles that predict the pose of the robot more accurately survive.
+
+Other localisation algorithms are 
+1. Extended Kalman Filter
+2. Markov Localisation
+3. Grid Localisation
+4. Monte carlo Localisation
+
+###### Dijkstra's algorithm 
+It is another type of Uniform Cost Search algorithm. This algorithm is used by the ROS Navigation Stack.
+Dijkstra's algorithm (or Dijkstra's Shortest Path First algorithm, SPF algorithm) is an algorithm for finding the shortest paths between nodes in a graph. 
+Refer this [link](https://www.geeksforgeeks.org/dijkstras-shortest-path-algorithm-greedy-algo-7/) to better understand the working of the algorithm and test its implementation in C++ and python.
+
 ## Running the project 
 Assuming ROS Kinetic has already been installed
 1. Create a workspace directory and clone the packages
